@@ -1,0 +1,45 @@
+{
+  "name": "@elemental-design/colors",
+  "version": "0.0.1",
+  "description": "Elemental Design System color library",
+  "main": "dist/bundle.umd.js",
+  "module": "dist/bundle.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elemental-design/colors.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elemental-design/colors/issues"
+  },
+  "homepage": "https://github.com/elemental-design/colors#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-flow": "^7.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-flowtype": "^4.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "flow-bin": "^0.107.0",
+    "flow-typed": "^2.6.1",
+    "rollup": "^1.21.2",
+    "rollup-library": "0.0.3",
+    "rollup-plugin-alias": "^2.0.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "chroma-js": "^2.0.6",
+    "@elemental-design/coloralgorithm": "1.0.0"
+  }
+}
